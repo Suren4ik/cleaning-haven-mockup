@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [scrolled]);
 
   return (
-    <header 
+    <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         scrolled ? 'py-3 bg-white/90 backdrop-blur-lg shadow-sm' : 'py-5 bg-transparent'
@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 sm:px-10 md:px-12 lg:px-24">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center">
-            <span className="text-2xl font-semibold text-clean-600">CleanHaven</span>
+            <span className="text-2xl font-semibold text-clean-600">VolgaClean</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -88,13 +88,13 @@ const Navbar = () => {
 
         {/* Mobile Navigation Menu */}
         {menuOpen && (
-          <div className="md:hidden pt-4 pb-2 animate-fade-in-up">
-            <div className="flex flex-col space-y-4">
+          <div className="md:hidden fixed top-0 left-0 w-full bg-white shadow-lg animate-fade-in-up z-50 rounded-b-lg">
+            <div className="flex flex-col space-y-2 px-6 py-4">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-neutral-700 hover:text-clean-500 transition-colors font-medium py-2"
+                  className="text-neutral-700 hover:text-clean-500 transition-colors font-medium py-3 px-4 rounded-md hover:bg-neutral-100"
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.name}
@@ -103,6 +103,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
+
       </div>
     </header>
   );

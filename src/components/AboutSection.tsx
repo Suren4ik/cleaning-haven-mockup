@@ -56,21 +56,21 @@ const AboutSection = () => {
     <section id="about" className="section-container">
       <div className="text-center mb-12">
         <div className="chip bg-clean-100 text-clean-700 mb-4">О нас</div>
-        <h2 className="section-title">Почему выбирают CleanHaven</h2>
+        <h2 className="section-title">Почему выбирают VolgaClean</h2>
         <p className="section-subtitle">
           Мы предоставляем профессиональные услуги клининга более 5 лет. За это время мы обслужили более 1000 клиентов и отточили наши навыки до совершенства.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden shadow-xl animate-fade-in-left">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-12 items-center">
+        {/* <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden shadow-xl animate-fade-in-left">
           <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent z-10"></div>
           <img 
             src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" 
-            alt="Клининговая команда CleanHaven" 
+            alt="Клининговая команда VolgaClean" 
             className="w-full h-full object-cover"
           />
-        </div>
+        </div> */}
 
         <div className="animate-fade-in-right">
           <div className="space-y-8">

@@ -8,26 +8,26 @@ const BeforeAfterGallery = () => {
   const galleryItems = [
     {
       title: "Гостиная",
-      before: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80",
-      after: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+      before: "",
+      after: "",
       description: "Генеральная уборка после длительного проживания"
     },
     {
       title: "Кухня",
-      before: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80",
-      after: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80",
+      before: "",
+      after: "",
       description: "Комплексная чистка кухонных поверхностей"
     },
     {
       title: "Санузел",
-      before: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80",
-      after: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+      before: "",
+      after: "",
       description: "Дезинфекция и удаление сложных загрязнений"
     },
     {
       title: "Офис",
-      before: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80",
-      after: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80",
+      before: "",
+      after: "",
       description: "Еженедельная уборка офисного помещения"
     }
   ];
